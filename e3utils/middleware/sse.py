@@ -1,5 +1,5 @@
 import json
-from ..external.reddit import RedditWrapper
+from ..cnxns.reddit import RedditWrapper
 from typing import Generator
 from fastapi import Request
 from loguru import logger
